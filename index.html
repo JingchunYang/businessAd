@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Banner Ad</title>
+    <title>Business Ad Banner website</title>
     <link rel="stylesheet" href="https://use.typekit.net/dgl1ttw.css">
 
 
@@ -14,8 +14,11 @@
             background-color: rgb(25, 100, 300);
         }
 
-        h1 {
-            padding: 30px;
+        h1.clipped{
+            position: relative;
+            display: inline-block;
+            padding: 15px;
+            margin: 20px;
             font-size: 60px;
             /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', sans-serif */
             font-family: "neue-kabel", sans-serif;
@@ -24,10 +27,26 @@
 
 
 
+
             background:linear-gradient(45deg,rgb(242,206,99),rgb(241,81,63),rgb(186,4,191));
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
+
+
+        }
+
+        h1.clipped::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+            background-color: rgba(7, 3, 140, 0.6);
+            box-shadow: 10px 10px 20px 20px rgba(7, 3, 140, 0.3);
+            border-radius: 20px;
         }
 
         h1 span.past {
@@ -66,7 +85,7 @@
         }
 
         .ad2text{
-            color: blue;
+            color:rgb(7, 3, 140);
         }
 
         .ad3text{
@@ -202,7 +221,7 @@
 </head>
 
 <body>
-    <h1>
+    <h1 class="clipped">
         <span class="past">Past</span><span class="forward">Forward</span>
         Cafe
     </h1>
