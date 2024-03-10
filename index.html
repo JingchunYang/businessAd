@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Banner Ad</title>
+    <link rel="stylesheet" href="https://use.typekit.net/dgl1ttw.css">
+
+
+    <style>
+        body {
+            background-color: rgb(25, 100, 300);
+        }
+
+        h1 {
+            padding: 30px;
+            font-size: 60px;
+            /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', sans-serif */
+            font-family: "neue-kabel", sans-serif;
+            font-weight: 700;
+            font-style: italic;
+
+
+
+            background:linear-gradient(45deg,rgb(242,206,99),rgb(241,81,63),rgb(186,4,191));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h1 span.past {
+            font-family: "adobe-caslon-pro", serif;
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        h1 span.forward {
+            font-family: "eurostile", sans-serif;
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        h2 {
+            font-size: 40px;
+            color: yellow;
+            font-family: "neue-kabel", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+
+        }
+
+        p {
+            font-size: 20px;
+            /* color: red; */
+            font-family: "neue-kabel", sans-serif;
+            /* font-family: "eurostile", sans-serif; */
+            font-weight: 400;
+            font-style: normal;
+        }
+
+
+        .ad1text {
+            color: gold;
+        }
+
+        .ad2text{
+            color: blue;
+        }
+
+        .ad3text{
+            color:rgb(242, 6, 135);
+        }
+
+        .ad4text{
+            color: rgb(242, 207, 102);
+            opacity: 1;
+        }
+
+
+
+        .ad1 {
+            width: 400px;
+            height: auto;
+            background-color: rgb(191, 42, 42);
+
+            left: 100px;
+            top: 200px;
+            position: absolute;
+
+            padding: 30px;
+            margin: 30px;
+            border-radius: 20px;
+            /* z-index: 2;  */
+            /* opacity: 0.5; */
+
+            box-shadow: -20px 20px 20px 0 rgba(191, 42, 42, 0.5);
+        }
+
+        .ad2 {
+            width: auto;
+            height: auto;
+            background-color: rgb(242, 207, 102);
+            left: 300px;
+            top: 1000px;
+            position: absolute;
+            /* padding: 20px; */
+            margin: 20px;
+            border-radius: 20px;
+
+            padding-top: 20px;
+            padding-left: 20px;
+            
+            opacity: 0.9;
+            box-shadow: -20px 20px 20px 0 rgba(242, 207, 102, 0.5);
+        }
+
+        .ad3 {
+            width: 150px;
+            height: auto;
+            background-color: rgb(7, 3, 140);
+            left: 100px;
+            top: 1500px;
+            position: absolute;
+
+            padding: 20px;
+            padding-bottom: 0px;
+
+            margin: 20px;
+            border-radius: 20px;
+            box-shadow: 20px 20px 30px 30px rgba(7, 3, 140, 0.6);
+        }
+
+        .ad4 {
+            width: 900px;
+            height: auto;
+            background-color: rgb(242, 6, 135);
+            left: 400px;
+            top: 1500px;
+            position: absolute;
+            padding-left: 20px;
+            margin: 20px;
+            border-radius: 20px;
+            opacity: 0.9;
+            box-shadow: 20px 20px 30px 30px rgba(242, 6, 135, 0.5);
+            
+        }
+
+
+
+
+
+
+        .ad1Banner {
+            width: 500px;
+            height: 500px;
+            background-image: url("moodboard_assets/Social_Media_Square_1000x1000px.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 15px;
+
+            /* margin-right: -100px; */
+            margin-bottom: -100px;
+        }
+
+        .ad2Banner {
+            width: 900px;
+            height: 200px;
+            background-image: url("moodboard_assets/Medium-Sized_Hero_Banner_1800x400_px.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 15px;
+
+            margin-bottom: -20px;
+            margin-right: -20px;
+        }
+
+        .ad3Banner {
+            width: 200px;
+            height: 600px;
+            background-image: url("moodboard_assets/Tall_Skyscraper_400x1200_px.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 15px;
+            margin-bottom: -20px;
+        }
+
+        .ad4Banner {
+            width: 920px;
+            height: 290px;
+            background-image: url("moodboard_assets/small_banner_940x300px.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 15px;
+            opacity: 1;
+
+            margin-bottom: -20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        <span class="past">Past</span><span class="forward">Forward</span>
+        Cafe
+    </h1>
+
+    <div class="ad1">
+        <h2 class="ad1text">PastForward: A Combination of the Past and Future</h2>
+        <p class="ad1text">Our cafe is a place for people with stories and ideas to share about their stories, their
+            thoughts, as well as their prospects for the future.</p>
+        <!-- <img src="images/Bauhaus_noir_1990.png" alt=""> -->
+        <div class="ad1Banner"></div>
+    </div>
+
+    <div class="ad2">
+        <h2 class="ad2text">Noir, Bauhaus, and 1900s vibe</h2>
+        <p class="ad2text">While Noir represents the past or the nostalgic mood of PastForward Espresso, Bauhaus as well as 1990s visual style could bring customers into a modernized and futuristic ambience. </p>
+        <!-- <img src="images/Bauhaus_noir_1990.png" alt=""> -->
+        <div class="ad2Banner"></div>
+    </div>
+
+
+    <div class="ad3">
+        <h2 class="ad3text">Furnace of Time</h2>
+        <p class="ad3text">Our Cafe welcomes people with different backgrounds to share their stories and ideas. </p>
+        <!-- <img src="images/Bauhaus_noir_1990.png" alt=""> -->
+        <div class="ad3Banner"></div>
+    </div>
+
+    <div class="ad4">
+        <h2 class="ad4text">Taste Different Moments of the World </h2>
+        <p class="ad4text">You are not only here to taste diverse cafe and teas from different states, but to also to connect with different people from diverse backgrounds</p>
+        <!-- <img src="images/Bauhaus_noir_1990.png" alt=""> -->
+        <div class="ad4Banner"></div>
+    </div>
+
+
+
+
+</body>
+
+</html>

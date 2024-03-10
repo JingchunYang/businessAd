@@ -1,0 +1,10 @@
+[3/7/2024, 5:28:59 PM] layer "bauhaus kettle.png": Duplicate path: bauhaus kettle.png
+[3/7/2024, 5:28:59 PM] layer "1990 neo.png": Duplicate path: 1990 neo.png
+[3/7/2024, 5:28:59 PM] layer "1990 grunk.png": Duplicate path: 1990 grunk.png
+[3/7/2024, 5:28:59 PM] layer "noir3.png": Duplicate path: noir3.png
+[3/7/2024, 5:28:59 PM] layer "bauhaus kettle.png": Duplicate path: bauhaus kettle.png
+[3/7/2024, 5:35:44 PM] layer "bauhaus kettle.png": Duplicate path: bauhaus kettle.png
+[3/7/2024, 5:28:59 PM] layer "1990 city.png": Duplicate path: 1990 city.png
+[3/7/2024, 5:28:59 PM] layer "noir 1.png": Duplicate path: noir 1.png
+[3/7/2024, 5:28:59 PM] layer "Bauhaus graphics3.png": Duplicate path: Bauhaus graphics3.png
+[3/7/2024, 5:28:59 PM] layer "bauhaus graphic.png": Duplicate path: bauhaus graphic.png
